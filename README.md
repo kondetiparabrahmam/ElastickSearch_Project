@@ -19,7 +19,7 @@ Create a file named Dockerfile inside the elasticsearch-docker directory and add
 Dockerfile
 Copy code
 # Use the official Elasticsearch image from the Docker Hub
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.15.1
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.1
 
 # Set environment variables
 ENV discovery.type=single-node
